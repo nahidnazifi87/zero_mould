@@ -1,0 +1,28 @@
+- color:
+  - 4
+  - 200
+  - 3
+  id: 0
+  isthing: 0
+  name: correct-color
+- color:
+  - 204
+  - 5
+  - 255
+  id: 0
+  isthing: 0
+  name: correct-uncolor
+- color:
+  - 150
+  - 5
+  - 61
+  id: 0
+  isthing: 0
+  name: wrong-uncolor
+- color:
+  - 120
+  - 120
+  - 120
+  id: 0
+  isthing: 0
+  name: background
