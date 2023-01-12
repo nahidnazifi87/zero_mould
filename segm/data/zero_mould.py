@@ -12,6 +12,7 @@ class ZeroMouldDataset(BaseMMSeg):
     def __init__(self, image_size, crop_size, split, **kwargs):
         super().__init__(
             image_size, crop_size, split, 
+            img_suffix='.jpg', seg_map_suffix='.tiff',
             config_path = ZERO_MOULD_CONFIG_PATH
         )
         self.names, self.colors = utils.dataset_cat_description(ZERO_MOULD_CATS_PATH)
